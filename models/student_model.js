@@ -37,7 +37,14 @@ const studentSchema = new mongoose.Schema({
             return Date.now();
         }
     },
-    subject : [String],
+    subject : {
+        type : [String],
+        //custom validation
+        validate : {
+            validator : s => s.length !=0,
+            message : props => 'subject list can"t be empty'
+        }
+    },
     address : addressSchema //Embedded document
 })
 

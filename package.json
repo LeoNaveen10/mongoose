@@ -1,0 +1,15 @@
+{
+  "name": "mongoose",
+  "version": "1.0.0",
+  "description": "learning mongoose ODM",
+  "main": "index.js",
+  "type" :"module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Naveen Sundar",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^6.4.4"
+  }
+}
